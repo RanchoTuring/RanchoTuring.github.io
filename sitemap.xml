@@ -2,9 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://RanchoTuring.coding.me/categories/index.html</loc>
+    
+    <lastmod>2019-01-21T12:44:28.218Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://RanchoTuring.coding.me/tags/index.html</loc>
+    
+    <lastmod>2019-01-21T12:43:04.493Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://RanchoTuring.coding.me/2019/01/04/build-site/</loc>
     
-    <lastmod>2019-01-21T11:55:57.407Z</lastmod>
+    <lastmod>2019-01-21T12:26:18.634Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://RanchoTuring.coding.me/2019/01/19/Markdown%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0/</loc>
+    
+    <lastmod>2019-01-21T12:25:55.153Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://RanchoTuring.coding.me/2019/01/19/%E5%A4%A7%E4%BA%8C%E5%AF%92%E5%81%87%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</loc>
+    
+    <lastmod>2019-01-21T12:23:00.000Z</lastmod>
     
   </url>
   
@@ -12,20 +40,6 @@
     <loc>http://RanchoTuring.coding.me/2019/01/21/hello-world/</loc>
     
     <lastmod>2019-01-21T09:20:22.930Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://RanchoTuring.coding.me/2019/01/19/%E5%A4%A7%E4%BA%8C%E5%AF%92%E5%81%87%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</loc>
-    
-    <lastmod>2019-01-20T18:32:47.559Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://RanchoTuring.coding.me/2019/01/19/Markdown%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0/</loc>
-    
-    <lastmod>2019-01-20T17:48:58.367Z</lastmod>
     
   </url>
   
