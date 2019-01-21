@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Rancho&#39;s Blog</title>
+  
+  <subtitle>诸葛建国的小黑作坊</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://RanchoTuring.coding.me/"/>
+  <updated>2019-01-21T09:20:22.930Z</updated>
+  <id>http://RanchoTuring.coding.me/</id>
+  
+  <author>
+    <name>Rancho Turing</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://RanchoTuring.coding.me/2019/01/21/hello-world/"/>
+    <id>http://RanchoTuring.coding.me/2019/01/21/hello-world/</id>
+    <published>2019-01-21T09:20:22.930Z</published>
+    <updated>2019-01-21T09:20:22.930Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>大二寒假日常记录（持续更新中...）</title>
+    <link href="http://RanchoTuring.coding.me/2019/01/19/%E5%A4%A7%E4%BA%8C%E5%AF%92%E5%81%87%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
+    <id>http://RanchoTuring.coding.me/2019/01/19/大二寒假学习记录/</id>
+    <published>2019-01-19T15:30:00.000Z</published>
+    <updated>2019-01-20T18:32:47.559Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>Status to be updated…</p><h1 id="理论-算法方面"><a href="#理论-算法方面" class="headerlink" title="理论/算法方面"></a>理论/算法方面</h1><p>学习中…</p><h1 id="项目方面"><a href="#项目方面" class="headerlink" title="项目方面"></a>项目方面</h1><p>积极筹备中…</p><h1 id="比赛方面"><a href="#比赛方面" class="headerlink" title="比赛方面"></a>比赛方面</h1><h2 id="节能减排大赛"><a href="#节能减排大赛" class="headerlink" title="节能减排大赛"></a>节能减排大赛</h2><p>造数据！</p><p><strong>造数据！！</strong></p><h2 id="蓝桥"><a href="#蓝桥" class="headerlink" title="蓝桥"></a>蓝桥</h2><p>先划水半个月…</p><h1 id="生活方面"><a href="#生活方面" class="headerlink" title="生活方面"></a>生活方面</h1><p>Nothing</p><h1 id="每日记录"><a href="#每日记录" class="headerlink" title="每日记录"></a>每日记录</h1><table><thead><tr><th style="text-align:center">日 期</th><th style="text-align:center">理 论 / 算 法</th><th style="text-align:center">项目 / coding</th><th style="text-align:center">计 算 机 相 关</th><th style="text-align:center">杂 活 儿</th><th style="text-align:center">生 活</th><th style="text-align:center">备注</th></tr></thead><tbody><tr><td style="text-align:center">1.19</td><td style="text-align:center">markdown语法学习</td><td style="text-align:center">-</td><td style="text-align:center">Blog新域名+国内DNS+https</td><td style="text-align:center">整理美术素材</td><td style="text-align:center">-</td><td style="text-align:center">-      </td></tr><tr><td style="text-align:center">1.20</td><td style="text-align:center">了解MVC框架相关知识</td><td style="text-align:center">帮学弟改代码(快速排序优化)</td><td style="text-align:center">网站搭建后续工作</td><td style="text-align:center">更新博文</td><td style="text-align:center">-</td><td style="text-align:center">-</td></tr><tr><td style="text-align:center">1.21</td><td style="text-align:center">-</td><td style="text-align:center">-</td><td style="text-align:center">改网站的bug…</td><td style="text-align:center">-</td><td style="text-align:center">-</td><td style="text-align:center">一个空格引发的血案…</td></tr></tbody></table>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;总结&quot;&gt;&lt;a href=&quot;#总结&quot; class=&quot;headerlink&quot; title=&quot;总结&quot;&gt;&lt;/a&gt;总结&lt;/h1&gt;&lt;p&gt;Status to be updated…&lt;/p&gt;
+&lt;h1 id=&quot;理论-算法方面&quot;&gt;&lt;a href=&quot;#理论-算法方面&quot; class=&quot;h
+      
+    
+    </summary>
+    
+      <category term="学习记录" scheme="http://RanchoTuring.coding.me/categories/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
+    
+    
+      <category term="学习记录" scheme="http://RanchoTuring.coding.me/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>markdown语法学习</title>
+    <link href="http://RanchoTuring.coding.me/2019/01/19/Markdown%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0/"/>
+    <id>http://RanchoTuring.coding.me/2019/01/19/Markdown语法学习/</id>
+    <published>2019-01-19T12:30:00.000Z</published>
+    <updated>2019-01-20T17:48:58.367Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="这是一篇markdown文档"><a href="#这是一篇markdown文档" class="headerlink" title="这是一篇markdown文档"></a>这是一篇markdown文档</h1><h2 id="文字效果"><a href="#文字效果" class="headerlink" title="文字效果"></a>文字效果</h2><p>我是一段正文，会有<strong>关键字</strong>，另外<del>不关键的句子我会删掉</del></p><hr><p>这是第二段正文，在这里会有一个<em>斜体关键字</em>，还会有一个<code>内嵌代码块</code>，完美！下一行会有一个引用</p><blockquote><p>我是一行引用。——鲁迅</p><p>我也是。——周树人</p></blockquote><h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><p>接下来试验列表，先是无序的</p><ul><li>无序列表</li><li>我也是</li><li>me too</li></ul><hr><p>下边是有序的</p><ol><li>比如我</li><li>and me</li><li>ho!</li></ol><h3 id="突然发现还可以嵌套"><a href="#突然发现还可以嵌套" class="headerlink" title="突然发现还可以嵌套"></a>突然发现还可以嵌套</h3><blockquote><ul><li>外层<ul><li>内层</li><li>我也是内层<ul><li>内层的内层</li></ul></li></ul></li><li>第二个外层</li></ul></blockquote><h3 id="果然有序的也可以"><a href="#果然有序的也可以" class="headerlink" title="果然有序的也可以"></a>果然有序的也可以</h3><blockquote><ol><li>外层<ol start="2"><li>内层</li><li>我也是内层<ol start="4"><li>内层的内层</li></ol></li></ol></li><li>第二个外层</li></ol></blockquote><hr><h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><p>下边我会写一些代码</p><pre><code>#include &lt;stdio.h&gt;int main(){    printf(&quot;Hello World!&quot;);    return 0;}</code></pre><p>接下来试验超链接，这是我的<a href="https://ranchoturing.com" target="_blank" rel="noopener">个人博客链接</a><br>这是<a href="https://ranchoturing.com" title="rancho&#39;s blog" target="_blank" rel="noopener">博客</a>,这也是<a href="https://ranchoturing.com" title="rancho&#39;s blog" target="_blank" rel="noopener">博客</a>,这还是<a href="https://ranchoturing.com" title="rancho&#39;s blog" target="_blank" rel="noopener">博客</a></p><p>在这儿可以插一张图片<img src="http://www.turingbook.com/Content/img/Turing.Gif" alt="图片"></p><p>这样插图片也行<img src="http://www.turingbook.com/Content/img/Turing.Gif" alt="一张图片">,再次<img src="http://www.turingbook.com/Content/img/Turing.Gif" alt="一张图片"></p><p>链接也可以用索引的方式存在后边，算是行内式和参考式超链接的一种混合运用，如：<a href="https://ranchoturing.com" target="_blank" rel="noopener">建国的小屋</a></p><p>另外，还有自动链接，来处理网址和邮箱地址之类的，如<a href="mailto:&#51;&#x31;&#x33;&#x35;&#x36;&#x31;&#x33;&#x34;&#52;&#64;&#x71;&#113;&#46;&#99;&#111;&#x6d;" target="_blank" rel="noopener">&#51;&#x31;&#x33;&#x35;&#x36;&#x31;&#x33;&#x34;&#52;&#64;&#x71;&#113;&#46;&#99;&#111;&#x6d;</a></p><h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><p>这个真的是最麻烦的了，所以用最简单的格式写就好，注意对齐</p><table><thead><tr><th style="text-align:center">名称</th><th style="text-align:center">一斤多少钱呀</th><th style="text-align:right">到底要买多少呢</th></tr></thead><tbody><tr><td style="text-align:center">超大超好吃的苹果</td><td style="text-align:center">5.0</td><td style="text-align:right">33</td></tr><tr><td style="text-align:center">绿色的香蕉</td><td style="text-align:center">8.8</td><td style="text-align:right">25</td></tr><tr><td style="text-align:center">梨子</td><td style="text-align:center">6.5</td><td style="text-align:right">10</td></tr></tbody></table>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;这是一篇markdown文档&quot;&gt;&lt;a href=&quot;#这是一篇markdown文档&quot; class=&quot;headerlink&quot; title=&quot;这是一篇markdown文档&quot;&gt;&lt;/a&gt;这是一篇markdown文档&lt;/h1&gt;&lt;h2 id=&quot;文字效果&quot;&gt;&lt;a href=&quot;#文
+      
+    
+    </summary>
+    
+      <category term="markdown" scheme="http://RanchoTuring.coding.me/categories/markdown/"/>
+    
+    
+      <category term="学习记录 markdown" scheme="http://RanchoTuring.coding.me/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95-markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>建站感言</title>
+    <link href="http://RanchoTuring.coding.me/2019/01/04/build-site/"/>
+    <id>http://RanchoTuring.coding.me/2019/01/04/build-site/</id>
+    <published>2019-01-03T16:00:00.000Z</published>
+    <updated>2019-01-21T11:55:57.407Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li style="list-style: none"><input type="checkbox" checked> 个人网站</li><li style="list-style: none"><input type="checkbox" checked> 一年份的域名 </li></ul><p>按照惯例干了好事/ 坏事要写小作文来记录，<del>趁热打铁先写在空间，等白天电脑有电了再更新到网站上</del></p><p>经过一晚上的折腾，终于差不多搞定了网站，并且赶在没电关机的前几秒截了图。</p><h2 id="开端"><a href="#开端" class="headerlink" title="开端"></a>开端</h2><p>一直以来，被好多学长和前辈提醒过要写博客记录学习进度才能有收获。</p><p>但由于各（fei）种（chang）原（de）因（lan），在其他同学不断写博客更新刷题笔记、分享技术的时候，我还一直停留在用本地的文本文档记随笔的阶段。github上没有一行代码、csdn的博客里只写了一篇开头，<del>还开坑不填</del>。</p><p>仔细想想，近一年来还是学到/接触了不少值得记录下来的东西的。如果好好写写博客梳理一下，肯定会有很多新的收获。</p><p>所以，大概一两个月前就开始准备好好整理一下电脑上的随笔，更到博客里。结果没过几天，就被csdn坑了一把，见识到了<strong>辣鸡</strong>csdn捞钱时的丑恶嘴脸，从此粉转黑。（当然，更博的计划也就被我以这个理由暂时搁置了。嗯，这个理由很正当，没毛病，<strong>绝对不是我想偷懒</strong></p><p>之后又试了下欧阳之前推荐过的cnblog，功能虽然很强大，但还停留在零几年的老旧的界面风格实在是让人感觉很难受，所以就放弃了cnblog，开始打起了自己写个个人网站的主意。</p><h2 id="着手准备"><a href="#着手准备" class="headerlink" title="着手准备"></a>着手准备</h2><p>一开始是打算自己从头开始写的，但是具有知难而退的良好品质的我果断就放弃了这个想法，开始寻找一些开源的框架和方案。不得不说，站在巨人的肩膀上确实是一件幸福的事，在计算机领域，由于大家对“开源精神”的推崇，这种幸福更是被无限地放大了，很多问题都能找到前辈们留下的解决方案，新问题也能得到大佬们热心的解答。</p><p>当时的想法是把网站托管在github上，也省去了自己购买和配置服务器与域名的麻烦和开销。多方考虑之下，放弃了写动态网页的打算而选择了静态网页，之后又选择放弃hexo，选择了Jekyll来开发。所以最近的一段时间基本没有写题训练，偷懒之余，一直在学习git和这些方面的东西。</p><p>不过在十几天前参加完<strong>腾讯云开发者大会</strong>回来之后，结合之后的各种计划，又改变了主意，准备把网站项目托管在coding上。</p><p>在这之前，考虑到github服务器在国外，有许多不确定因素，所以早就有过换用coding或者码云的想法，不过这两家都不是大公司，所以还是不太信任他们。</p><p>这次大会上有公布腾讯和coding的合作计划，coding升级成“腾讯云开发者平台”，有了腾讯爸爸背书，那么选择coding自然也就成了顺理成章的事儿了。</p><p>之后就是忙活各种杂活儿了，顺带还是没有抵挡住诱惑，搞了个.cf顶级域名。</p><h2 id="正式完工"><a href="#正式完工" class="headerlink" title="正式完工"></a>正式完工</h2><p>然后因为考试和其他事情就又搁置下了，结果今晚收到域名供应商的邮件，他们访问了我的域名发现还没有被启用，接下来几天他们会每天都来访问，如果还是没有启用，那么为了避免域名资源被浪费，他们会收回域名。。。。</p><p>于是就大晚上开始开工干活，建项目，从github克隆项目到本地的git仓库，再push到coding上新的远程仓库，然后部署，绑定自己的域名和dns服务器等等。</p><p>出来的效果基本上还是不错的，接下来就是完善内容和修改一些细节啦。</p><p>顺带，现在的dns服务器在国外，面对国内严重污染的dns环境可能有些无力，为了避免被运营商劫持或者其他dns污染的情况，还得找个时间换成国内的dns服务器。</p><p>另外，虽然.cf的顶级域名不错，但还是想要个.com的顶级域名，不过这个倒不是多重要，等以后把网站转到自己服务器上了再买吧。</p><p>以上。</p><hr><h2 id="2019-1-19更新："><a href="#2019-1-19更新：" class="headerlink" title="2019-1-19更新："></a>2019-1-19更新：</h2><p>已购买2年的<strong>.com</strong>顶级域名，并启用了<strong>https证书</strong>，换到了国内的DNS服务器。</p><p>现通过<a href="https://ranchoturing.com" target="_blank" rel="noopener">https://ranchoturing.com</a>及<a href="https://www.ranchoturing.com" target="_blank" rel="noopener">https://www.ranchoturing.com</a>均可访问博客网站，并且保留了原来的<a href="http://www.ranchoturing.cf" target="_blank" rel="noopener">http://www.ranchoturing.cf</a>。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ul&gt;
+&lt;li style=&quot;list-style: none&quot;&gt;&lt;input type=&quot;checkbox&quot; checked&gt; 个人网站&lt;/li&gt;
+&lt;li style=&quot;list-style: none&quot;&gt;&lt;input type=&quot;checkbox&quot; checked&gt; 一年份
+      
+    
+    </summary>
+    
+      <category term="随笔" scheme="http://RanchoTuring.coding.me/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="网站建设 学习记录 web" scheme="http://RanchoTuring.coding.me/tags/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE-%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95-web/"/>
+    
+  </entry>
+  
+</feed>
