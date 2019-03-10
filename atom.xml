@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://RanchoTuring.coding.me/"/>
-  <updated>2019-03-10T09:05:12.446Z</updated>
+  <updated>2019-03-10T09:18:11.381Z</updated>
   <id>http://RanchoTuring.coding.me/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://RanchoTuring.coding.me/2019/03/10/Qt%E4%B8%AD%E7%9A%84setWindowFlags%E6%96%B9%E6%B3%95/"/>
     <id>http://RanchoTuring.coding.me/2019/03/10/Qt中的setWindowFlags方法/</id>
     <published>2019-03-10T09:02:44.000Z</published>
-    <updated>2019-03-10T09:05:12.446Z</updated>
+    <updated>2019-03-10T09:18:11.381Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Qt中的setWindowFlags方法"><a href="#Qt中的setWindowFlags方法" class="headerlink" title="Qt中的setWindowFlags方法"></a>Qt中的setWindowFlags方法</h1><p>在Qt中，可使用setWindowFlags方法对窗口进行一些特殊属性的设置，比如：<br><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">this</span>-&gt;setWindowFlags(Qt::FramelessWindowHint);<span class="comment">//去掉窗口边框</span></span><br></pre></td></tr></table></figure></p><p>或<br><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">this</span>-&gt;setWindowFlags(Qt::WindowStaysOnTopHint);<span class="comment">//窗口置顶</span></span><br></pre></td></tr></table></figure></p><p>当多次使用该方法时，之后的修改会<strong>覆盖</strong>掉之前的结果<br><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">this</span>-&gt;setWindowFlags(Qt::FramelessWindowHint);</span><br><span class="line"><span class="keyword">this</span>-&gt;setWindowFlags(Qt::WindowStaysOnTopHint);</span><br><span class="line"><span class="comment">//产生一个置顶的有边框的窗口（去边框的效果被覆盖掉）</span></span><br></pre></td></tr></table></figure></p><p>所以，如果想用setWindowFlags同时实现多种效果,应该这样写<br><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">this</span>-&gt;setWindowFlags(Qt::FramelessWindowHint|Qt::WindowStaysOnTopHint);</span><br></pre></td></tr></table></figure></p><p>使用“|”可实现多种效果同时出现，有点类似金工实习里遇到的那个电梯模型的多状态设置。</p>]]></content>
     
