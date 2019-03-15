@@ -5,9 +5,9 @@
   <subtitle>诸葛建国的小黑作坊</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://RanchoTuring.coding.me/"/>
+  <link href="http://RanchoTuring.github.io/"/>
   <updated>2019-03-10T09:18:11.381Z</updated>
-  <id>http://RanchoTuring.coding.me/</id>
+  <id>http://RanchoTuring.github.io/</id>
   
   <author>
     <name>Rancho Turing</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Qt中的setWindowFlags方法</title>
-    <link href="http://RanchoTuring.coding.me/2019/03/10/Qt%E4%B8%AD%E7%9A%84setWindowFlags%E6%96%B9%E6%B3%95/"/>
-    <id>http://RanchoTuring.coding.me/2019/03/10/Qt中的setWindowFlags方法/</id>
+    <link href="http://RanchoTuring.github.io/2019/03/10/Qt%E4%B8%AD%E7%9A%84setWindowFlags%E6%96%B9%E6%B3%95/"/>
+    <id>http://RanchoTuring.github.io/2019/03/10/Qt中的setWindowFlags方法/</id>
     <published>2019-03-10T09:02:44.000Z</published>
     <updated>2019-03-10T09:18:11.381Z</updated>
     
@@ -34,21 +34,21 @@
     
     </summary>
     
-      <category term="Qt" scheme="http://RanchoTuring.coding.me/categories/Qt/"/>
+      <category term="Qt" scheme="http://RanchoTuring.github.io/categories/Qt/"/>
     
     
-      <category term="学习记录" scheme="http://RanchoTuring.coding.me/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
+      <category term="学习记录" scheme="http://RanchoTuring.github.io/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
     
-      <category term="Qt" scheme="http://RanchoTuring.coding.me/tags/Qt/"/>
+      <category term="Qt" scheme="http://RanchoTuring.github.io/tags/Qt/"/>
     
-      <category term="GUI" scheme="http://RanchoTuring.coding.me/tags/GUI/"/>
+      <category term="GUI" scheme="http://RanchoTuring.github.io/tags/GUI/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://RanchoTuring.coding.me/2019/01/21/hello-world/"/>
-    <id>http://RanchoTuring.coding.me/2019/01/21/hello-world/</id>
+    <link href="http://RanchoTuring.github.io/2019/01/21/hello-world/"/>
+    <id>http://RanchoTuring.github.io/2019/01/21/hello-world/</id>
     <published>2019-01-21T09:20:22.930Z</published>
     <updated>2019-01-23T17:27:01.691Z</updated>
     
@@ -63,17 +63,17 @@
     
     </summary>
     
-      <category term="web" scheme="http://RanchoTuring.coding.me/categories/web/"/>
+      <category term="web" scheme="http://RanchoTuring.github.io/categories/web/"/>
     
-      <category term="hexo" scheme="http://RanchoTuring.coding.me/categories/web/hexo/"/>
+      <category term="hexo" scheme="http://RanchoTuring.github.io/categories/web/hexo/"/>
     
     
   </entry>
   
   <entry>
     <title>大二寒假日常记录（持续更新中...）</title>
-    <link href="http://RanchoTuring.coding.me/2019/01/19/%E5%A4%A7%E4%BA%8C%E5%AF%92%E5%81%87%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
-    <id>http://RanchoTuring.coding.me/2019/01/19/大二寒假学习记录/</id>
+    <link href="http://RanchoTuring.github.io/2019/01/19/%E5%A4%A7%E4%BA%8C%E5%AF%92%E5%81%87%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
+    <id>http://RanchoTuring.github.io/2019/01/19/大二寒假学习记录/</id>
     <published>2019-01-19T15:30:00.000Z</published>
     <updated>2019-01-23T12:23:00.000Z</updated>
     
@@ -85,17 +85,17 @@
     
     </summary>
     
-      <category term="学习记录" scheme="http://RanchoTuring.coding.me/categories/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
+      <category term="学习记录" scheme="http://RanchoTuring.github.io/categories/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
     
     
-      <category term="学习记录" scheme="http://RanchoTuring.coding.me/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
+      <category term="学习记录" scheme="http://RanchoTuring.github.io/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
     
   </entry>
   
   <entry>
     <title>Markdown语法学习</title>
-    <link href="http://RanchoTuring.coding.me/2019/01/19/Markdown%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0/"/>
-    <id>http://RanchoTuring.coding.me/2019/01/19/Markdown语法学习/</id>
+    <link href="http://RanchoTuring.github.io/2019/01/19/Markdown%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0/"/>
+    <id>http://RanchoTuring.github.io/2019/01/19/Markdown语法学习/</id>
     <published>2019-01-19T12:30:00.000Z</published>
     <updated>2019-03-12T11:27:29.441Z</updated>
     
@@ -107,19 +107,19 @@
     
     </summary>
     
-      <category term="Markdown" scheme="http://RanchoTuring.coding.me/categories/Markdown/"/>
+      <category term="Markdown" scheme="http://RanchoTuring.github.io/categories/Markdown/"/>
     
     
-      <category term="学习记录" scheme="http://RanchoTuring.coding.me/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
+      <category term="学习记录" scheme="http://RanchoTuring.github.io/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
     
-      <category term="Markdown" scheme="http://RanchoTuring.coding.me/tags/Markdown/"/>
+      <category term="Markdown" scheme="http://RanchoTuring.github.io/tags/Markdown/"/>
     
   </entry>
   
   <entry>
     <title>建站感言</title>
-    <link href="http://RanchoTuring.coding.me/2019/01/04/build-site/"/>
-    <id>http://RanchoTuring.coding.me/2019/01/04/build-site/</id>
+    <link href="http://RanchoTuring.github.io/2019/01/04/build-site/"/>
+    <id>http://RanchoTuring.github.io/2019/01/04/build-site/</id>
     <published>2019-01-03T16:00:00.000Z</published>
     <updated>2019-01-23T12:59:05.877Z</updated>
     
@@ -136,14 +136,14 @@
     
     </summary>
     
-      <category term="随笔" scheme="http://RanchoTuring.coding.me/categories/%E9%9A%8F%E7%AC%94/"/>
+      <category term="随笔" scheme="http://RanchoTuring.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
-      <category term="学习记录" scheme="http://RanchoTuring.coding.me/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
+      <category term="学习记录" scheme="http://RanchoTuring.github.io/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
     
-      <category term="网站建设" scheme="http://RanchoTuring.coding.me/tags/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/"/>
+      <category term="网站建设" scheme="http://RanchoTuring.github.io/tags/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/"/>
     
-      <category term="web" scheme="http://RanchoTuring.coding.me/tags/web/"/>
+      <category term="web" scheme="http://RanchoTuring.github.io/tags/web/"/>
     
   </entry>
   
