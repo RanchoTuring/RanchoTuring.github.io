@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://RanchoTuring.github.io/2019/01/04/build-site/</loc>
+    
+    <lastmod>2019-03-18T15:11:41.145Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://RanchoTuring.github.io/2019/01/19/Markdown%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0/</loc>
     
     <lastmod>2019-03-12T11:27:29.441Z</lastmod>
@@ -19,13 +26,6 @@
     <loc>http://RanchoTuring.github.io/2019/01/21/hello-world/</loc>
     
     <lastmod>2019-01-23T17:27:01.691Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://RanchoTuring.github.io/2019/01/04/build-site/</loc>
-    
-    <lastmod>2019-01-23T12:59:05.877Z</lastmod>
     
   </url>
   
