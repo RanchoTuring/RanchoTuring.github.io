@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://RanchoTuring.github.io/2019/04/11/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/</loc>
+    
+    <lastmod>2019-04-11T14:30:29.910Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://RanchoTuring.github.io/2019/04/11/python%E7%AC%94%E8%AE%B0/</loc>
+    
+    <lastmod>2019-04-11T14:27:50.652Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://RanchoTuring.github.io/2019/01/19/Markdown%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0/</loc>
+    
+    <lastmod>2019-04-11T14:21:02.156Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://RanchoTuring.github.io/2019/01/04/build-site/</loc>
     
     <lastmod>2019-03-18T15:11:41.145Z</lastmod>
@@ -9,23 +30,9 @@
   </url>
   
   <url>
-    <loc>http://RanchoTuring.github.io/2019/01/19/Markdown%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0/</loc>
-    
-    <lastmod>2019-03-12T11:27:29.441Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://RanchoTuring.github.io/2019/03/10/Qt%E4%B8%AD%E7%9A%84setWindowFlags%E6%96%B9%E6%B3%95/</loc>
     
     <lastmod>2019-03-10T09:18:11.381Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://RanchoTuring.github.io/2019/01/21/hello-world/</loc>
-    
-    <lastmod>2019-01-23T17:27:01.691Z</lastmod>
     
   </url>
   
