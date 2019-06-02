@@ -1,0 +1,169 @@
+<!DOCTYPE html><html lang="zh-Hans"><head><meta name="generator" content="Hexo 3.8.0"><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="description" content="计算机组成与结构知识点速查表"><meta name="keywords" content="学习记录,知识点速查表,CUMTB复习资料"><meta name="author" content="Rancho Turing"><meta name="copyright" content="Rancho Turing"><title>计算机组成与结构知识点速查表 | Rancho's Blog</title><link rel="shortcut icon" href="/melody-favicon.ico"><link rel="stylesheet" href="/css/index.css?version=1.6.1"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css?version=1.6.1"><link rel="dns-prefetch" href="https://cdn.staticfile.org"><link rel="dns-prefetch" href="https://cdn.bootcss.com"><link rel="dns-prefetch" href="https://creativecommons.org"><link rel="dns-prefetch" href="https://hm.baidu.com"><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?8c71b8c5746412ffcaf1e2d2ec72d90e";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();</script><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容:${query}"}},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  }
+} </script></head><body><canvas class="fireworks"></canvas><i class="fa fa-arrow-right" id="toggle-sidebar" aria-hidden="true"></i><div id="sidebar"><div class="toggle-sidebar-info text-center"><span data-toggle="切换文章详情">切换站点概览</span><hr></div><div class="sidebar-toc"><div class="sidebar-toc__title">目录</div><div class="sidebar-toc__progress"><span class="progress-notice">你已经读了</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar"></div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#主存"><span class="toc-number">1.</span> <span class="toc-text">主存</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#分类"><span class="toc-number">1.0.1.</span> <span class="toc-text">分类</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#主要技术指标"><span class="toc-number">1.0.2.</span> <span class="toc-text">主要技术指标</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#基本操作"><span class="toc-number">1.0.3.</span> <span class="toc-text">基本操作</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#SRAM与DRAM"><span class="toc-number">1.0.4.</span> <span class="toc-text">SRAM与DRAM</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#容量扩展"><span class="toc-number">1.0.5.</span> <span class="toc-text">容量扩展</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#DRAM的刷新"><span class="toc-number">1.0.6.</span> <span class="toc-text">DRAM的刷新</span></a></li></ol></li></ol><li class="toc-item toc-level-1"><a class="toc-link" href="#IO接口"><span class="toc-number">2.</span> <span class="toc-text">IO接口</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#编址方式"><span class="toc-number">2.0.1.</span> <span class="toc-text">编址方式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#基本功能"><span class="toc-number">2.0.2.</span> <span class="toc-text">基本功能</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#IO设备数据传送控制方式"><span class="toc-number">3.</span> <span class="toc-text">IO设备数据传送控制方式</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#中断"><span class="toc-number">4.</span> <span class="toc-text">中断</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#作用"><span class="toc-number">4.0.1.</span> <span class="toc-text">作用</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#相关术语及概念"><span class="toc-number">4.0.2.</span> <span class="toc-text">相关术语及概念</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#中断处理过程"><span class="toc-number">4.0.3.</span> <span class="toc-text">中断处理过程</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#判别中断源"><span class="toc-number">4.0.4.</span> <span class="toc-text">判别中断源</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#DMA"><span class="toc-number">5.</span> <span class="toc-text">DMA</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#工作方式"><span class="toc-number">5.0.1.</span> <span class="toc-text">工作方式</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#I-O通道控制方式"><span class="toc-number">6.</span> <span class="toc-text">I/O通道控制方式</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#总线"><span class="toc-number">7.</span> <span class="toc-text">总线</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#总线组成"><span class="toc-number">7.0.1.</span> <span class="toc-text">总线组成</span></a></li></ol></li></div></div><div class="author-info hide"><div class="author-info__avatar text-center"><img src="/img/avatar.png"></div><div class="author-info__name text-center">Rancho Turing</div><div class="author-info__description text-center">Rancho Turing 's Blog.</div><hr><div class="author-info-articles"><a class="author-info-articles__archives article-meta" href="/archives"><span class="pull-left">文章</span><span class="pull-right">9</span></a><a class="author-info-articles__tags article-meta" href="/tags"><span class="pull-left">标签</span><span class="pull-right">14</span></a><a class="author-info-articles__categories article-meta" href="/categories"><span class="pull-left">分类</span><span class="pull-right">7</span></a></div></div></div><div id="content-outer"><div id="top-container" style="background-image: url(https://cdna.artstation.com/p/assets/images/images/005/217/372/large/sylvain-sarrailh-vendome.jpg)"><div id="page-header"><span class="pull-left"> <a id="site-name" href="/">Rancho's Blog</a></span><i class="fa fa-bars toggle-menu pull-right" aria-hidden="true"></i><span class="pull-right menus"><a class="site-page social-icon search"><i class="fa fa-search"></i><span> Search</span></a><a class="site-page" href="/">Home</a><a class="site-page" href="/archives">Archives</a><a class="site-page" href="/categories">Categories</a><a class="site-page" href="/tags">Tags</a><a class="site-page" href="/about">About</a></span></div><div id="post-info"><div id="post-title">计算机组成与结构知识点速查表</div><div id="post-meta"><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2019-05-27</time><span class="post-meta__separator">|</span><i class="fa fa-inbox post-meta__icon" aria-hidden="true"></i><a class="post-meta__categories" href="/categories/学习记录/">学习记录</a><div class="post-meta-wordcount"><span>字数总计: </span><span class="word-count">1.2k</span><span class="post-meta__separator">|</span><span>阅读时长: 3 分钟</span></div></div></div></div><div class="layout" id="content-inner"><article id="post"><div class="article-container" id="post-content"><h1 id="主存"><a href="#主存" class="headerlink" title="主存"></a>主存</h1><h3 id="分类"><a href="#分类" class="headerlink" title="分类"></a>分类</h3><ol>
+<li>随机存储器（RANDOM ACCESS MEMORY,RAM）</li>
+<li>非易失性存储器（停电仍能保持内容）<ul>
+<li>只读存储器ROM</li>
+<li>可编程的只读存储器PROM:一次性写入</li>
+<li>可擦可编程EPROM</li>
+<li>可电擦可编程E2PROM</li>
+<li>快擦除读写存储器FLASH MEMORY</li>
+</ul>
+</li>
+</ol>
+<h3 id="主要技术指标"><a href="#主要技术指标" class="headerlink" title="主要技术指标"></a>主要技术指标</h3><p>主存容量、存储器存取时间、存储周期</p>
+<blockquote>
+<p>通常存储周期<strong>略大于</strong>存取时间</p>
+</blockquote>
+<h3 id="基本操作"><a href="#基本操作" class="headerlink" title="基本操作"></a>基本操作</h3><ul>
+<li><p>CPU使用<code>AR（地址寄存器)</code>  和  <code>DR（数码寄存器)</code>   和主存通过总线进行数据传送</p>
+</li>
+<li><p>CPU与主存之间采用<strong>异步工作方式</strong>，以<code>ready</code>信号表示一次<strong>访存操作的结束</strong></p>
+<h3 id="SRAM与DRAM"><a href="#SRAM与DRAM" class="headerlink" title="SRAM与DRAM"></a>SRAM与DRAM</h3></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"></th>
+<th style="text-align:center">静态存储器</th>
+<th style="text-align:center">动态存储器</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">集成度</td>
+<td style="text-align:center">低</td>
+<td style="text-align:center">高</td>
+</tr>
+<tr>
+<td style="text-align:center">功耗</td>
+<td style="text-align:center">较大</td>
+<td style="text-align:center">小</td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center">不断电，信息就不会丢失</td>
+<td style="text-align:center">需不断给MOS电容充电来保持信息<br>主要用于<strong>大容量存储器</strong></td>
+</tr>
+<tr>
+<td style="text-align:center">速度</td>
+<td style="text-align:center">快</td>
+<td style="text-align:center">较慢（需要再生，浪费了时间</td>
+</tr>
+</tbody>
+</table>
+<h3 id="容量扩展"><a href="#容量扩展" class="headerlink" title="容量扩展"></a>容量扩展</h3><ul>
+<li>位扩展：用多个存储器芯片对<strong>字长进行扩充</strong></li>
+<li>字扩展：增加存储器中<strong>字的数量</strong></li>
+<li>字位扩展：同时扩充</li>
+</ul>
+<h3 id="DRAM的刷新"><a href="#DRAM的刷新" class="headerlink" title="DRAM的刷新"></a>DRAM的刷新</h3><ul>
+<li>刷新周期（再生周期）一般为2ms</li>
+<li></li>
+</ul>
+<hr>
+<h1 id="IO接口"><a href="#IO接口" class="headerlink" title="IO接口"></a>IO接口</h1><p>必要性：控制并实现主机与外部设备之间的数据传送</p>
+<h3 id="编址方式"><a href="#编址方式" class="headerlink" title="编址方式"></a>编址方式</h3><ol>
+<li>专设I/O指令</li>
+<li>利用访存指令完成I/O功能</li>
+</ol>
+<h3 id="基本功能"><a href="#基本功能" class="headerlink" title="基本功能"></a>基本功能</h3><ol>
+<li>主机与外部设备之间的数据传送</li>
+<li>数据缓冲，使主机与外部设备之间的速度匹配</li>
+<li>接受主机命令，提供设备接口状态，按主机命令控制设备</li>
+</ol>
+<hr>
+<h1 id="IO设备数据传送控制方式"><a href="#IO设备数据传送控制方式" class="headerlink" title="IO设备数据传送控制方式"></a>IO设备数据传送控制方式</h1><ol>
+<li><p>程序直接控制方式</p>
+</li>
+<li><p>程序中断传送方式</p>
+</li>
+<li><p>直接存储器存取方式</p>
+</li>
+<li><p>I/O通道控制方式</p>
+</li>
+<li><p>外围处理机方式</p>
+</li>
+</ol>
+<hr>
+<h1 id="中断"><a href="#中断" class="headerlink" title="中断"></a>中断</h1><p>由I/O设备或其他非预期的急需处理的事件所引起，<strong>使CPU暂时中断现在正在处理的程序，转至另一服务程序去处理这些事件，处理完后再返回原程序</strong>。</p>
+<h3 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h3><ol>
+<li>CPU与I/O设备并行工作</li>
+<li>硬件故障处理、实现人机联系</li>
+<li>实现多道程序和分时操作</li>
+<li>实现实时处理</li>
+<li>实现应用程序与操作系统的联系（软中断）</li>
+<li>多处理机系统各处理机之间的联系</li>
+</ol>
+<h3 id="相关术语及概念"><a href="#相关术语及概念" class="headerlink" title="相关术语及概念"></a>相关术语及概念</h3><ol>
+<li>中断源的<strong>种类</strong>：内/外/软</li>
+<li><p><strong>中断触发器</strong>（每个中断源都有一个，中断发生时先将其置1）—-&gt;<strong>中断寄存器</strong>（全机的中断触发器构成），其内容称为<strong>中断字</strong>或<strong>中断码</strong>—–&gt;CPU<strong>根据中断字确定中断源</strong>，转入相应的程序进行执行</p>
+</li>
+<li><p>按类别分为不同的<strong>中断级</strong>，同一级中再确定各个中断源的<strong>优先权</strong></p>
+<blockquote>
+<p>为保证数据的有效性，通常<strong>数据有效期短</strong>的设备优先权高，<strong>数据有效期长</strong>或具有<strong>数据自动恢复能力</strong>的设备优先权低。</p>
+</blockquote>
+</li>
+<li><p>禁止中断：CPU内有“中断允许”触发器，其为1时，才可响应中断，称为“允许中断”，否则为</p>
+<blockquote>
+<p>进入<strong>中断服务程序后</strong>，自动“关中断”</p>
+</blockquote>
+</li>
+<li><p>中断屏蔽：<strong>通过程序</strong>有选择的封锁部分中断，而允许其余部分中断得到响应</p>
+<blockquote>
+<pre><code>通过为**每个中断源**设置一个**中断屏蔽触发器**来屏蔽该设备的中断请求
+</code></pre></blockquote>
+</li>
+</ol>
+<blockquote>
+<p>有些中断是<strong>不可屏蔽的</strong>，这些中断享有最高优先权。</p>
+</blockquote>
+<h3 id="中断处理过程"><a href="#中断处理过程" class="headerlink" title="中断处理过程"></a>中断处理过程</h3><ol>
+<li>关中断   </li>
+<li>保存断点和现场    </li>
+<li>判别中断源，转向中断服务程序   </li>
+<li>开中断   </li>
+<li>执行中断服务程序</li>
+<li>退出中断（关中断，恢复现场和断点，开中断，返回断点）</li>
+</ol>
+<h3 id="判别中断源"><a href="#判别中断源" class="headerlink" title="判别中断源"></a>判别中断源</h3><ol>
+<li>查询法</li>
+<li>串行排队链法</li>
+</ol>
+<hr>
+<h1 id="DMA"><a href="#DMA" class="headerlink" title="DMA"></a>DMA</h1><p>I/O设备与<strong>主存储器</strong>之间由硬件组成的直接数据通路，用于<strong>成组数据</strong>的传送 </p>
+<h3 id="工作方式"><a href="#工作方式" class="headerlink" title="工作方式"></a>工作方式</h3><ol>
+<li>CPU暂停方式</li>
+<li>CPU周期窃取方式</li>
+<li>直接访问存储器工作方式</li>
+</ol>
+<hr>
+<h1 id="I-O通道控制方式"><a href="#I-O通道控制方式" class="headerlink" title="I/O通道控制方式"></a>I/O通道控制方式</h1><p>I/O通道是计算机系统中代替CPU管理控制外部设备的<strong>独立部件</strong>，是一种能执行有限条I/O指令集合的I/O处理机</p>
+<ol>
+<li>字节多路通道</li>
+<li>数组多路通道</li>
+<li>选择通道</li>
+</ol>
+<hr>
+<h1 id="总线"><a href="#总线" class="headerlink" title="总线"></a>总线</h1><p>各模块之间传送信息的通路，是由<strong>2个或以上</strong>源部件传送信息到<strong>一个或多个</strong>部件的的一组传输线</p>
+<blockquote>
+<p>若<strong>仅用于1对1或1对多</strong>的连接，则不称为总线</p>
+</blockquote>
+<h3 id="总线组成"><a href="#总线组成" class="headerlink" title="总线组成"></a>总线组成</h3></div></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">Rancho Turing</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://RanchoTuring.github.io/2019/05/27/计算机组成与结构知识点速查表/">http://RanchoTuring.github.io/2019/05/27/计算机组成与结构知识点速查表/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://RanchoTuring.github.io">Rancho's Blog</a>！</span></div></div><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/学习记录/">学习记录</a><a class="post-meta__tags" href="/tags/知识点速查表/">知识点速查表</a><a class="post-meta__tags" href="/tags/CUMTB复习资料/">CUMTB复习资料</a></div><div class="social-share"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js@1.0.16/dist/css/share.min.css"><script src="https://cdn.jsdelivr.net/npm/social-share.js@1.0.16/dist/js/social-share.min.js"></script><nav id="pagination"><div class="next-post pull-right"><a href="/2019/05/19/汇编语言知识点速查表/"><span>汇编语言知识点速查表</span><i class="fa fa-chevron-right"></i></a></div></nav></div></div><footer class="footer-bg" style="background-image: url(https://cdna.artstation.com/p/assets/images/images/005/217/372/large/sylvain-sarrailh-vendome.jpg)"><div class="layout" id="footer"><div class="copyright">&copy;2019 By Rancho Turing</div><div class="framework-info"><span>驱动 - </span><a href="http://hexo.io"><span>Hexo</span></a><span class="footer-separator">|</span><span>主题 - </span><a href="https://github.com/Molunerfinn/hexo-theme-melody"><span>Melody</span></a></div><div class="footer_custom_text">Hi, welcome to my <a href="https://ranchoturing.com">blog</a>!</div><div class="busuanzi"><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><span id="busuanzi_container_page_pv"><i class="fa fa-file-o"></i><span id="busuanzi_value_page_pv"></span><span></span></span></div></div></footer><i class="fa fa-arrow-up" id="go-up" aria-hidden="true"></i><script src="/js/third-party/anime.min.js"></script><script src="/js/third-party/jquery.min.js"></script><script src="/js/third-party/jquery.fancybox.min.js"></script><script src="/js/third-party/velocity.min.js"></script><script src="/js/third-party/velocity.ui.min.js"></script><script src="/js/utils.js?version=1.6.1"></script><script src="/js/fancybox.js?version=1.6.1"></script><script src="/js/sidebar.js?version=1.6.1"></script><script src="/js/copy.js?version=1.6.1"></script><script src="/js/fireworks.js?version=1.6.1"></script><script src="/js/transition.js?version=1.6.1"></script><script src="/js/scroll.js?version=1.6.1"></script><script src="/js/head.js?version=1.6.1"></script><script src="/js/search/local-search.js"></script><script>if(/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
+  $('#nav').addClass('is-mobile')
+  $('footer').addClass('is-mobile')
+}</script><div class="search-dialog" id="local-search"><div class="search-dialog__title" id="local-search-title">站内搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章及内容"></div></div></div><hr><div id="local-search-results"><div id="local-hits"></div><div id="local-stats"><div class="local-search-stats__hr" id="hr"><span>由</span> <a href="https://github.com/wzpan/hexo-generator-search" style="color:#49B1F5;">hexo-generator-search</a>
+ <span>提供支持</span></div></div></div><span class="search-close-button"><i class="fa fa-times"></i></span></div><div class="search-mask"></div></body></html>
