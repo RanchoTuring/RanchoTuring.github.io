@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://RanchoTuring.github.io/2019/01/04/build-site/</loc>
+    
+    <lastmod>2020-04-16T16:20:55.086Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://RanchoTuring.github.io/2019/05/05/MySQL%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/</loc>
+    
+    <lastmod>2020-04-16T15:55:57.246Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://RanchoTuring.github.io/2019/11/27/%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
     
     <lastmod>2020-04-16T14:59:20.023Z</lastmod>
@@ -44,13 +58,6 @@
   </url>
   
   <url>
-    <loc>http://RanchoTuring.github.io/2019/05/05/MySQL%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/</loc>
-    
-    <lastmod>2019-06-02T07:28:31.597Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://RanchoTuring.github.io/2019/04/11/python%E7%AC%94%E8%AE%B0/</loc>
     
     <lastmod>2019-04-11T14:27:50.652Z</lastmod>
@@ -65,23 +72,9 @@
   </url>
   
   <url>
-    <loc>http://RanchoTuring.github.io/2019/01/04/build-site/</loc>
-    
-    <lastmod>2019-03-18T15:11:41.145Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://RanchoTuring.github.io/2019/03/10/Qt%E4%B8%AD%E7%9A%84setWindowFlags%E6%96%B9%E6%B3%95/</loc>
     
     <lastmod>2019-03-10T09:18:11.381Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://RanchoTuring.github.io/2019/01/19/%E5%A4%A7%E4%BA%8C%E5%AF%92%E5%81%87%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</loc>
-    
-    <lastmod>2019-01-23T12:23:00.000Z</lastmod>
     
   </url>
   
